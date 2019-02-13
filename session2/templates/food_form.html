@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+                margin: 0;
+                padding: 0;
+            }
+        .menu{
+            border: none;
+            display: block;
+            height: 25px;
+            width: 100%;
+            margin : 10px 0 0 0;
+            border-bottom: 1px solid black;
+        }
+        .form1{
+            width : 280px;
+            position: absolute;
+            left: 50%;
+            top: 30%;
+            transform: translate(-50%,-50%);
+        }
+        .btn{
+            width: 100%;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <form  class="form1" action="" method="POST">
+        <legend style="color:red; text-align: center">MENU</legend>
+        <input class="menu" name="title" type="text" placeholder="Title">
+
+        <input class="menu" name="link" type="text" placeholder="Link"><br>
+
+        <input class="btn" type="submit" value="OK">
+    </form>
+
+</body>
+</html>
